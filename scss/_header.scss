@@ -1,0 +1,20 @@
+.page-header {
+  margin: 15px 0 0;
+  padding-bottom: 0;
+  border-bottom: 3px solid #22aaec;
+  &--logo {
+    text-align: center;
+  }
+  &--social {
+    float: right;
+    margin-top: -24px;
+    a {
+      margin: 0 2px;
+      &> img {
+        &:hover {
+          transform: scale(1.5);
+        }
+      }
+    }
+  }
+}

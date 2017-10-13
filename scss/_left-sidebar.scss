@@ -1,0 +1,80 @@
+.left-sidebar {
+  &--heading {
+    font-size: 22px;
+    color: $title-color;
+  }
+   &--description {
+     padding: 0 29px 30px 0;
+     color: #5c5c5c;
+     font: 10px/18px Ariel, sans-serif;
+     font-weight: 600;
+     text-align: left;
+     border-bottom: 2px solid #d5d5d5;
+  }
+  &--color {
+    color: $title-color;
+  }
+}
+.panel {
+  margin-bottom: 0;
+  &-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font:  22px/14px "League Gothic", sans-serif;
+    color: $title-color;
+  }
+  &-heading {
+    padding: 10px 0;
+  }
+  &-body {
+    padding: 15px 0;
+  }
+}
+.site-news-item--title {
+  margin-top: 10px;
+  font: bold 10px Ariel, sans-serif;
+  letter-spacing: -1px;
+}
+.site-news-item--comments {
+  margin-top: 10px;
+  font: 10px Ariel, sans-serif;
+  font-weight: normal;
+  color: #5c5c5c;
+  img {
+    float: left;
+    margin-right: 10px;
+  }
+}
+.site-news-item {
+  &:hover {
+    .site-news-item--title a {
+      color: $span-color;
+    }
+
+    .site-news-item--image {
+      background-color: $span-color;
+    }
+  }
+  &--image {
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 75px;
+    transition: background-color 0.25s ease;
+    img {
+      width: 100%;
+    }
+  }
+  &--title {
+    a {
+      color: #7a7a7a;
+      transition: color 0.25s ease;
+    }
+  }
+}
+.left-sidebar-currency {
+  &--title {
+    font: 22px/14px "League Gothic", sans-serif;
+    color: #076e9f;
+    text-transform: uppercase;
+  }
+}

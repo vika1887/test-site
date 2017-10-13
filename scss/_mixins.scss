@@ -1,0 +1,10 @@
+@mixin title-properties {
+  font: 60px "League Gothic", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+@mixin dsc-properties {
+  font: 30px "League Gothic", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}

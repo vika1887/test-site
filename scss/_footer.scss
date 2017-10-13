@@ -1,0 +1,15 @@
+.footer {
+  &-nav {
+    .navbar-nav {
+      float: none;
+      margin: 5px 0;
+      text-align: center;
+    }
+  }
+  &-bottom {
+    font: bold 10px "Ariel", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
